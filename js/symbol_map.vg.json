@@ -16,24 +16,24 @@
           "url": "https://raw.githubusercontent.com/nsuz0003/Week-9-HW/main/data/tertiary_data.csv" 
         }, 
         "key": "Country", 
-        "fields": ["1970"] 
+        "fields": ["2010"] 
       } 
     } 
   ], 
   "mark": {"type": "geoshape"}, 
   "encoding": { 
     "color": { 
-      "field": "1970", 
+      "field": "2010", 
       "type": "quantitative", 
       "scale": { 
         "type": "threshold", 
-        "domain": [0, 5, 10, 15,20], 
+        "domain": [5, 10,15,20,25,30], 
         "scheme": "blues" 
       } 
     }, 
     "tooltip": [ 
       {"field": "properties.NAME", "type": "nominal", "title": "Country"}, 
-      {"field": "1970", "type": "quantitative"} 
+      {"field": "2010", "type": "quantitative"} 
     ] 
   } 
 }
