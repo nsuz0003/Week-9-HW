@@ -5,7 +5,7 @@
   "height": 720, 
   "projection": {"type": "equirectangular"}, 
   "data": { 
-    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson", 
+    "url": "https://raw.githubusercontent.com/nsuz0003/Week-9-HW/main/js/ne_110m_admin_0_countries.topojson", 
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"} 
   }, 
   "transform": [ 
@@ -13,7 +13,7 @@
       "lookup": "properties.NAME", 
       "from": { 
         "data": { 
-          "url": "data/tertiary_data.csv" 
+          "url": "https://raw.githubusercontent.com/nsuz0003/Week-9-HW/main/data/tertiary_data_raw.csv" 
         }, 
         "key": "Country", 
         "fields": ["1970"] 
