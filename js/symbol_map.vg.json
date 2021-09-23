@@ -13,7 +13,7 @@
       "lookup": "properties.NAME", 
       "from": { 
         "data": { 
-          "url": "https://raw.githubusercontent.com/nsuz0003/Week-9-HW/main/data/tertiary_data_raw.csv" 
+          "url": "https://raw.githubusercontent.com/nsuz0003/Week-9-HW/main/data/tertiary_data.csv" 
         }, 
         "key": "Country", 
         "fields": ["1970"] 
