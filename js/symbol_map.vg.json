@@ -1,6 +1,6 @@
 { 
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
-  "title": "Percentage of the population with tertiary education (above 14 year)", 
+  "title": "Percentage of the population with tertiary education (above 14 year) in 1970", 
   "width": 1280, 
   "height": 720, 
   "projection": {"type": "equirectangular"}, 
